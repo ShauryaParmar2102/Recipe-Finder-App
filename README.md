@@ -1,4 +1,4 @@
-# Recipe-Search-App
+# Recipe Finder App
 
 A simple and interactive web application that allows users to search for recipes or generate random meal ideas using TheMealDB API. The goal of this project is to practice working with APIs, asynchronous JavaScript, and DOM manipulation while building a clean and user-friendly interface.
 
