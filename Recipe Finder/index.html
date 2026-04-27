@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Finder</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&
+display=swap"
+ rel="stylesheet"
+ />
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="recipe-finder-container">
+        <h1>Recipe Finder</h1>
+
+        <form id="search-form" class="search-box">
+            <input type="text" 
+            id="search-input" 
+            placeholder="Search by name (eg. 'Carrot')"
+            required 
+            />
+
+            <button type="submit" id="search-button">Search</button>
+        </form>
+
+        <div class="random-button-container">
+            <button id="random-button" class="random-button">
+                Get Random Recipe
+            </button>
+        </div>
+
+        <div class="message info" id="message-area">
+        Search for a recipe or get a random one!
+        </div>
+
+        <div class="results-grid" id="results-grid">
+           <!-- 
+            <div class="recipe-item">
+                <img src="https://www.themealdb.com/images/media/meals/vrspxv1511722107.jpg" 
+                alt="Carrot Cake"
+                />
+
+                <h3>Carrot Cake</h3>
+            </div> -->
+        </div>
+    </div>
+
+    <div class="modal-container hidden" id="recipe-modal">
+        <div class="modal-content">
+            <button id="modal-close-btn" class="modal-close-btn">+</button>
+            <div id="recipe-details-content">
+                <!-- Details will be loaded here --> 
+
+             <!--   <h2>Carrot Cake</h2>
+                <img src="https://www.themealdb.com/images/media/meals/vrspxv1511722107.jpg" 
+                alt="Carrot Cake"
+                />
+                <h3>Category: Dessert</h3>
+                <h3>Category: Dessert</h3>
+                <h3>Category: Dessert</h3>
+
+                <ul>
+                    <li>450ml Vegetable Oil</li>
+                    <li>400g Plain Flour</li>
+                </ul>
+
+                <h3>Instructions</h3>
+
+                <p>To make a carrot cake, you start by preheating your oven to around 180°C 
+                    and greasing a cake tin. In a large bowl, mix together flour, 
+                    baking powder, baking soda, cinnamon, and a pinch of salt. In another bowl, whisk eggs, sugar, and vegetable oil until smooth, then combine this wet
+                     mixture with the dry ingredients. Stir in grated carrots and, if you like, add extras such as crushed walnuts or raisins for texture and flavour. 
+                     Pour the batter into the prepared tin and bake for about 30–40 minutes, or until a skewer inserted in the centre comes out clean. Once baked, 
+                     let the cake cool completely before spreading a cream cheese icing on top, which is made by mixing cream cheese, butter, icing sugar, and a little vanilla 
+                     extract until smooth and fluffy.
+                </p>
+
+                <h3>Video Recipe</h3>
+                <div class="video-wrapper">
+                <a href="https://www.youtube.com/watch?v=asjZ7iTrGKA"
+                target="_blank"
+                >Watch on YouTube</a>
+                </div> 
+
+                <div class="source-wrapper">
+                    <a href="#" target="_blank">View Original Source</a>
+                </div> -->
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
